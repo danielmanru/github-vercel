@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
         message: 'test build docker image sendiri!'
     });
 });
-
+// testing
 app.get('/add-data', async (req, res, next) => {
     try {
         const randomName = uniqueNamesGenerator({ dictionaries: [adjectives, colors, animals] }); // big_red_donkey
